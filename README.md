@@ -53,3 +53,19 @@ Leaving...
 Hard resetting via RTS pin...
 
 ```
+Installing rshell for connect to ESP32 following [tutorial](https://www.youtube.com/watch?v=w15-EQASP_Y)
+```
+pip3 install rshell
+```
+Connect to ESP32
+```
+rshell --buffer-size=30 -p /dev/ttyUSB0
+```
+```
+boards
+```
+REPL for direct programming
+```
+repl
+```
+
